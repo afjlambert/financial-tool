@@ -1,0 +1,36 @@
+<html>
+<head>
+    <style>
+        /* site css */
+        body { font-family:Arial; }
+        .tool {width:500px;}
+        .resultaat { border:1px solid #ccc; padding:0 10px; margin:20px 0;}
+        .resultaat .diff { color:#c00; }
+    </style>
+</head>
+
+<body>
+
+    <div class="tool">
+        <p>Startbedrag: <span class="inleg"></span></p>
+        <div class="inleg_slider"></div>
+        <p>Verwacht rendement: <span class="rendement">7,0%</span></p>
+        <div class="rendement_slider"></div>
+        <p>Inleg per maand: <span class="inlegpermaand">&euro; 500,-</span></p>
+        <div class="inlegpermaand_slider"></div>
+        <p>Investeringsduur: <span class="investeringsduur">20 jaar</span></p>
+        <div class="investeringsduur_slider"></div>
+        <p>Aantal jaar dat je wacht met beleggen: <span class="wachtmetinstappen">10 jaar</span></p>
+        <div class="wachtmetinstappen_slider"></div>
+        <div class="resultaat"></div>
+
+        <div class="dialog"><p>Beweeg de sliders met uw muis om de getallen aan te passen.</p></div>
+        <p class="oak3"><a href="http://online-aandelenkopen.nl/" title="Aandelen Kopen">Een tool van Online-Aandelen Kopen</a></p>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="../lib/jquery-cookie.js"></script>
+    <script src="../financial-tool.js"></script>
+
+</body>
+</html>
