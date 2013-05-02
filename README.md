@@ -13,7 +13,7 @@ Bekijk hoe de tool er uit kan zien: http://online-aandelenkopen.nl/gratis-belegg
 
 ## Implementatie
 
-Download financial-tool.min.js uit de `build` directory.
+Download [financial-tool.min.js](https://raw.github.com/afjlambert/financial-tool/master/build/financial-tool.min.js) uit de `[build](https://github.com/afjlambert/financial-tool/tree/master/build)` directory.
 
     <script src="/PATH/TO/financial-tool.min.js"></script>
 
@@ -51,4 +51,5 @@ Download financial-tool.min.js uit de `build` directory.
 ## Copyright
 
 Deze tool is gratis om te gebruiken onder de Creative Commons Attribution-NoDerivs licentie.
+
 Zie http://creativecommons.org/licenses/by-nd/3.0/
