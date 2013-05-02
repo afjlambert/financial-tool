@@ -2,18 +2,27 @@
 Deze tool helpt je om uit te rekenen wat je kunt verdienen op de beurs of op een spaarrekening.
 Bekijk hoe de tool er uit kan zien: http://online-aandelenkopen.nl/gratis-beleggingstips/
 
+# Screenshots
+
+## Nieuwe bezoekers
+
+Nieuwe bezoekers krijgen een duidelijke Call to action te zien.
 ![Voor nieuwe bezoekers ziet de tool er zo uit](screenshots/newvisitor.png "Nieuwe bezoekers")
+
+## Terugkerende bezoekers
+
+Terugkerende bezoekers krijgen een subtielere variant te zien.
+
 ![Voor terugkerende bezoekers ziet de tool er zo uit](screenshots/returningvisitor.png "Terugkerende bezoekers")
 
 ## Todo:
 
-    - lijkt wel of het cookie niet gezet wordt, kan door file:// komen
     - browser testing
 
 
 ## Implementatie
 
-Download [financial-tool.min.js](https://raw.github.com/afjlambert/financial-tool/master/build/financial-tool.min.js) uit de `[build](https://github.com/afjlambert/financial-tool/tree/master/build)` directory.
+Download [financial-tool.min.js](https://raw.github.com/afjlambert/financial-tool/master/build/financial-tool.min.js) uit de [build](https://github.com/afjlambert/financial-tool/tree/master/build) directory. Gebruik de volgende html om de tool te tonen.
 
     <script src="/PATH/TO/financial-tool.min.js"></script>
 
