@@ -2,8 +2,8 @@
 Deze tool helpt je om uit te rekenen wat je kunt verdienen op de beurs of op een spaarrekening.
 Bekijk hoe de tool er uit kan zien: http://online-aandelenkopen.nl/gratis-beleggingstips/
 
-![Voor nieuwe bezoekers ziet de tool er zo uit](img.jpg "Nieuwe bezoekers")
-![Voor terugkerende bezoekers ziet de tool er zo uit](img.jpg "Terugkerende bezoekers")
+![Voor nieuwe bezoekers ziet de tool er zo uit](screenshots/newvisitor.png "Nieuwe bezoekers")
+![Voor terugkerende bezoekers ziet de tool er zo uit](screenshots/returningvisitor.png "Terugkerende bezoekers")
 
 ## Todo:
 
@@ -37,12 +37,14 @@ Download financial-tool.min.js uit de `build` directory.
 
 ## Bouwen
 
-Installeer jsl (javascript linter)
-Installeer jsmin (javascript minifier)
-Clone het project met:
-git clone https://github.com/afjlambert/financial-tool.git
+- Installeer jsl (javascript linter)
+- Installeer jsmin (javascript minifier)
+- Clone het project
 
-Ga naar de project-root en draai:
+    git clone https://github.com/afjlambert/financial-tool.git
+
+- Ga naar de project-root en draai
+
     ./build.sh
 
 
